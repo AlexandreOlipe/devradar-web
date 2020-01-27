@@ -14,7 +14,7 @@ function App() {
           </div>
 
           <div className="input-block">
-            <label htmlFor="techs">Usuário do Github</label>
+            <label htmlFor="techs">Tecnologias</label>
             <input name="techs" id="techs" required/>
           </div>
 
@@ -35,7 +35,55 @@ function App() {
       </aside>
 
       <main>
-        
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/34045338?v=4" alt="Alexandre Pereira"/>
+              <div className="user-info">
+                <strong>Alexandre Pereira</strong>
+                <span>Angular, Java, SQL</span>
+              </div>
+            </header>
+            <p>Apaixonado por tecnologia e sempre em busca de novos conhecimentos</p>
+            <a href="https://github.com/AlexandreOlipe">Acessar perfil GitHub</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/34045338?v=4" alt="Alexandre Pereira"/>
+              <div className="user-info">
+                <strong>Alexandre Pereira</strong>
+                <span>Angular, Java, SQL</span>
+              </div>
+            </header>
+            <p>Apaixonado por tecnologia e sempre em busca de novos conhecimentos</p>
+            <a href="https://github.com/AlexandreOlipe">Acessar perfil GitHub</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/34045338?v=4" alt="Alexandre Pereira"/>
+              <div className="user-info">
+                <strong>Alexandre Pereira</strong>
+                <span>Angular, Java, SQL</span>
+              </div>
+            </header>
+            <p>Apaixonado por tecnologia e sempre em busca de novos conhecimentos</p>
+            <a href="https://github.com/AlexandreOlipe">Acessar perfil GitHub</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/34045338?v=4" alt="Alexandre Pereira"/>
+              <div className="user-info">
+                <strong>Alexandre Pereira</strong>
+                <span>Angular, Java, SQL</span>
+              </div>
+            </header>
+            <p>Apaixonado por tecnologia e sempre em busca de novos conhecimentos</p>
+            <a href="https://github.com/AlexandreOlipe">Acessar perfil GitHub</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
